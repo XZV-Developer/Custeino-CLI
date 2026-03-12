@@ -162,6 +162,7 @@ print_info "$STR_ARCH_FOUND: ${WHITE}${ARCH}${RESET}"
 
 case "$ARCH" in
   aarch64|arm64)  CLI_ARCH="Linux_ARM64";  BITS="64-bit (ARM64)"  ;;
+  armv8l)         CLI_ARCH="Linux_ARMv7";  BITS="32-bit (ARMv8l)" ;;
   armv7l|armv7)   CLI_ARCH="Linux_ARMv7";  BITS="32-bit (ARMv7)"  ;;
   armv6l|armv6)   CLI_ARCH="Linux_ARMv6";  BITS="32-bit (ARMv6)"  ;;
   x86_64)         CLI_ARCH="Linux_64bit";  BITS="64-bit (x86_64)" ;;
